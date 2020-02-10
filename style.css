@@ -1,0 +1,15 @@
+.game__container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  align-items: center;
+  justify-content: center;
+}
+.game__squares {
+  height: 200px;
+  width: 200px;
+  background: white;
+  border: 1px solid black;
+}
