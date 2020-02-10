@@ -3,6 +3,16 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-family: "Permanent Marker", cursive;
+}
+
+.game__title {
+  font-size: 60px;
+  border-bottom: 3px solid black;
+}
+.game__title:hover {
+  font-size: 70px;
+  border-bottom: 3px solid black;
 }
 
 .game__container {
@@ -23,15 +33,43 @@ body {
 
 .red {
   background: red;
-  transition: 0.3s;
+  transition: 0.5s;
+  font-size: 200px;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 .blue {
   background: blue;
-  transition: 0.3s;
+  transition: 0.5s;
+  font-size: 200px;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .game__turn_counter {
   padding: 20px;
   border: 2px dotted black;
   margin: 20px;
+  font-size: 30px;
+}
+
+.game__reset {
+  background: purple;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px black;
+}
+.game__reset:hover {
+  background: purple;
+  color: white;
+  font-size: 34px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px black;
 }
