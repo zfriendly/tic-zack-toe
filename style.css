@@ -24,6 +24,19 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* .overlay {
+  background: white;
+  height: 600px;
+  width: 600px;
+}
+
+.rendered {
+  display: inline;
+}
+.rendered.active {
+  display: none;
+} */
+
 .game__squares {
   height: 200px;
   width: 200px;
