@@ -20,3 +20,18 @@ body {
   background: white;
   border: 1px solid black;
 }
+
+.red {
+  background: red;
+  transition: 0.3s;
+}
+.blue {
+  background: blue;
+  transition: 0.3s;
+}
+
+.game__turn_counter {
+  padding: 20px;
+  border: 2px dotted black;
+  margin: 20px;
+}
